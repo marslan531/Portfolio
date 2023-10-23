@@ -1,0 +1,19 @@
+/*
+    Theme Name: foliox
+	Theme URI: http://shtheme.com/demosd/foliox
+	Author: Shtheme
+	Author URI: https://themeforest.net/user/shtheme
+    Release Date: 11 May 2023
+    Requirements: WordPress 4.0 or higher, PHP 5
+    Compatibility: WordPress 4.9.1
+    Tags: web app
+    Last Update Date: 11 May 2023
+*/
+
+/**** Readme ****/
+
+"Please backup your theme pack files at first before you update the theme into the lafoliox version"
+
+
+2023.05.11 - version 1.0.0
+- First release.

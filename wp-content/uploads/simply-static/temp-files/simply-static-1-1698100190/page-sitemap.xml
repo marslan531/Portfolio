@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was dynamically generated on October 23, 2023 at 10:30 pm by All in One SEO v4.4.8 - the original SEO plugin for WordPress. -->
+
+<?xml-stylesheet type="text/xsl" href="https://marslan531.github.io/Portfolio/default-sitemap.xsl?sitemap=page"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+	<url>
+		<loc><![CDATA[https://marslan531.github.io/Portfolio/]]></loc>
+		<lastmod><![CDATA[2023-10-23T22:26:44+00:00]]></lastmod>
+		<changefreq><![CDATA[always]]></changefreq>
+		<priority><![CDATA[1]]></priority>
+	</url>
+	<url>
+		<loc><![CDATA[https://marslan531.github.io/Portfolio/sample-page/]]></loc>
+		<lastmod><![CDATA[2023-10-23T21:59:16+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+	</url>
+</urlset>
