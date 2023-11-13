@@ -214,9 +214,12 @@ class BdevsBanner extends \Elementor\Widget_Base {
                         <p class="job"><?php print wp_kses_post($settings['welcome']); ?></p>
                         <?php } ?>
                         <?php if(isset($settings['link_button']) && $settings['link_button'] != ''){?>
-                        <div class="foliox_tm_button">
-							<a class="anchor" href="<?php print wp_kses_post($settings['link_button']); ?>"><span><?php print wp_kses_post($settings['button']); ?> </span><img class="svg" src="<?php echo wp_kses_post($settings['arrow_right']['url']);?>" alt="" /></a>
-                        </div>
+                            <div class="">
+    <a class="anchor"  style=  "font-family: var(--font-family-extra); color: #fff; display: inline-block; background-color: var(--extra-color); padding: 18px 43px; border-radius: 50px; overflow: hidden; position: relative; text-decoration: none;" href="<?php echo esc_url($settings['link_button']); ?>">Get Connected</a>
+</div>
+
+
+
                         <?php } ?>
                     </div>
                     <?php if(isset($settings['avatar']['url']) && $settings['avatar']['url'] != ''){?>
