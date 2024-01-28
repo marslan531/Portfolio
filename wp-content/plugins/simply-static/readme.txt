@@ -1,10 +1,10 @@
 === Simply Static ===
 Contributors: patrickposner
 Tags: HTML, static website generator, static site, secure, fast
-Requires at least: 6.2
+Requires at least: 6.3
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 3.1.2
+Stable tag: 3.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -221,6 +221,37 @@ Simply Static creates a static copy of your WordPress site that is intended to b
 3. Diagnostics
 
 == Changelog ==
+
+= 3.1.5 =
+
+* refactored additional settings
+* introduced setting for origin URL
+* removed unused helper methods
+* improved requests to itself check in diagnostics
+* improved sanitization for multiline fields
+* load textdomain in init hook instead of plugins_loaded
+* NPM packages updated to latest releases
+
+= 3.1.4 =
+
+* added log for replacing 404 pages
+* fix for 404 page in local directory exports
+* clear log before running new export to avoid big file sizes
+* extended ss_remote_args filter with async requests + max file size per request
+* improved sanitization for import/export settings
+* added filter for local URL check
+* improved secure log handling (dynamic filename + .htaccess rule)
+
+= 3.1.3 =
+
+* JS dependencies updated
+* refactored filter implementation for tasks
+* added check for empty strings in excludes
+* removed unused blog_id check
+* changed location of debug log to uploads dir
+* check for Rest API in diagnostics
+* increased PHP version for diagnostics >= 8.0
+* whitelist Freemius API calls if Basic Auth enabled
 
 = 3.1.2 =
 

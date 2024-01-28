@@ -353,7 +353,8 @@ abstract class Filters {
 		$postTypesToRemove = [
 			'fusion_element', // Avada
 			'elementor_library',
-			'redirect_rule' // Safe Redirect Manager
+			'redirect_rule', // Safe Redirect Manager
+			'seedprod'
 		];
 
 		foreach ( $postTypes as $index => $postType ) {
@@ -444,6 +445,11 @@ abstract class Filters {
 		if ( class_exists( '\Pagup\MetaTags\Settings' ) ) {
 			wp_dequeue_script( 'pmt__vuejs' );
 			wp_dequeue_script( 'pmt__script' );
+		}
+
+		// Plugin: Wpbingo Core (By TungHV).
+		if ( strpos( wp_styles()->query( 'bwp-lookbook-css' )->src ?? '', 'wpbingo' ) !== false ) {
+			wp_dequeue_style( 'bwp-lookbook-css' );
 		}
 	}
 
